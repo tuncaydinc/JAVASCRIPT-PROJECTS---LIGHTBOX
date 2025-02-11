@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top IMDb Movies</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Top IMDb Movies</h1>
+        <p>Discover the best-rated movies of all time</p>
+    </header>
+
+    <section class="movie-gallery">
+        <div class="movie-item">
+            <img src="1.jpg" alt="Movie 1" class="movie-image">
+            <p class="movie-title">The Shawshank Redemption (1994)</p>
+        </div>
+        <div class="movie-item">
+            <img src="2.jpg" alt="Movie 2" class="movie-image">
+            <p class="movie-title">The Godfather (1972)</p>
+        </div>
+        <div class="movie-item">
+            <img src="3.jpg" alt="Movie 3" class="movie-image">
+            <p class="movie-title">Inception (2010)</p>
+        </div>
+    </section>
+
+    <!-- Lightbox -->
+    <div id="lightbox" class="lightbox">
+        <span class="close" onclick="closeLightbox()">&times;</span>
+        <img class="lightbox-content" id="lightbox-image">
+    </div>
+
+    <footer>
+        <p>&copy; 2025 IMDb Movie Recs | All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
